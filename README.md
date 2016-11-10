@@ -1,3 +1,12 @@
+# Note to run the code
+
+Please note that I have not included the data files - batch_payment.txt and stream_payment.txt in the paymo_input due to their large file size. 
+
+Once these files are included, the run.sh generates a file called as batch_payment_unique.txt which contains all the non-duplicate transactions.
+
+My code then uses this file to create graphs separately for features - 1, 2, 3. The graph creation using the batch_payment takes a few minutes. However, queries are processed really quickly.
+
+
 # Table of Contents
 
 1. [Challenge Summary] (README.md#challenge-summary)
